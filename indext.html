@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambridge Accreditation System</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo">Cambridge Accreditation</h2>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#centers">Training Centers</a>
+          <a href="#trainers">Trainers</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      
+      <section id="home" class="home-section">
+        <div class="home-content">
+          <h1>Welcome to Cambridge Accreditation System</h1>
+          <p>Explore accredited training centers and professional traimers.</p>
+          <p>
+            Our platform helps visitors find trusted training centers and
+            certified trainers.
+          </p>
+          <div class="home-buttons">
+            <a href="#centers" class="btn">View Training Centers</a>
+            <a href="#trainers" class="btn">View Trainers</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="centers" class="centers-section">
+        <h2>Accredited Training Centers</h2>
+        <input type="text" id="center-search" class="search-input" placeholder="Search training centers by name">
+        <div id="centers-container" class="cards-container">
+          <!--Training center cards will appear here-->
+        </div>
+      </section>
+      
+      <section id="trainers" class="trainers-section">
+        <h2>Accredited Trainers</h2>
+        <input type="text" id="trainer-search" class="search-input" placeholder="Search trainers by name">
+        <div id="trainers-container" class="cards-container">
+          <!--Trainer cards will appear here-->
+        </div>
+      </section>
+    
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span>
+        Cambridge Accreditation System
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
